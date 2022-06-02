@@ -1,5 +1,5 @@
 var Data = new Date("Jun, 08, 2022, 00:00:00").getTime();
-var DataAtual = new Date()
+var DataAtual = new Date();
 
 var Hora = DataAtual.getHours();
 if (Hora >= 0 && Hora < 12){Saudar = "Bom dia, Lívia!"}
