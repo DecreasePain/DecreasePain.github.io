@@ -6,8 +6,9 @@ function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length)
 var Apelido = Aleatorizar([
     "nenequinha",
     "coisa linda",
-    "amor da minha vida",
-    "razão do meu viver",
+    "vida",
+    "vidinha",
+    "amorzinho",
     "mô"])
 
 var Hora = DataAtual.getHours()
