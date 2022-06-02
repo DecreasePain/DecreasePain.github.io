@@ -42,7 +42,8 @@ h1 {
 
 p {
   color: #FFFFFF;
-  letter-spacing: .125rem;
+  letter-spacing: .10rem;
+  font-family: "Helvetica Neue";
 }
 
 li {
@@ -95,6 +96,7 @@ li span {
   top: 0;
   left: 0;
   z-index: -3;
+  opacity: 0.6;
 }
 .bg:before {
   content: "";
