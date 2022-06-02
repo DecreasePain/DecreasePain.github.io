@@ -2,7 +2,7 @@ var Data = new Date("Jul, 08, 2022, 00:00:00").getTime();
 var DataAtual = new Date()
 
 var Hora = DataAtual.getHours()
-Saudar = "Olá, Lívia!"
+Saudar = "Boa noite, Lívia!"
 if (Hora >= 0 && Hora < 12){Saudar = "Bom dia, Lívia!"}
 else if (Hora >= 12 && Hora < 17){Saudar = "Boa tarde, Lívia!"}
 else if (Hora >= 17 && Hora < 0){Saudar = "Boa noite, Lívia!"}
