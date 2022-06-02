@@ -37,9 +37,12 @@ body {
 
 h1 {
   color: #FFFFFF;
-  font-weight: normal;
   letter-spacing: .125rem;
-  text-transform: uppercase;
+}
+
+p {
+  color: #FFFFFF;
+  letter-spacing: .125rem;
 }
 
 li {
@@ -80,5 +83,5 @@ li span {
 }
 
 .Yellow {
-  color: #FFFF00;
+  color: red;
 }
