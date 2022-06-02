@@ -9,9 +9,9 @@ document.getElementById("Saudação").innerHTML = Saudar
 
 var Timer=setInterval(function(){
     var Agora=new Date().getTime();
-    var Distância = Data - Agora;
+    var Distância=Data-Agora
     var Dias=Math.floor(Distância/(1000*60*60*24))
-    var Horas=Math.floor(Distância%(1000*60*60*24)/(1000*60*60));
+    var Horas=Math.floor(Distância%(1000*60*60*24)/(1000*60*60))
     var Minutos=Math.floor((Distância%(1000*60*60))/(1000*60))
     var Segundos=Math.floor((Distância%(1000*60)/1000))
 
