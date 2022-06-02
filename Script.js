@@ -2,10 +2,9 @@ var Data = new Date("Jul, 08, 2022, 00:00:00").getTime();
 var DataAtual = new Date()
 
 var Hora = DataAtual.getHours()
-Saudar = "Bom dia, Nenequinha! 🥰"
-if (Hora >= 0 && Hora < 12){Saudar = "Bom dia, Lívia!"}
-else if (Hora >= 12 && Hora < 17){Saudar = "Boa tarde, Lívia!"}
-else if (Hora >= 17 && Hora < 0){Saudar = "Boa noite, Lívia!"}
+if (Hora >= 0 && Hora < 12){Saudar = "Bom dia, Lívia! 🥰"}
+else if (Hora >= 12 && Hora < 17){Saudar = "Boa tarde, Lívia! 🥰"}
+else if (Hora >= 17 && Hora < 24){Saudar = "Boa noite, Lívia! 🥰"}
 document.getElementById("Saudação").innerHTML = Saudar
 
 var Timer=setInterval(function(){
