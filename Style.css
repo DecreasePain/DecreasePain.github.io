@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+a {
+text-decoration: nome;
+}
+
 .Saudando {
   animation: Spacing 1s ease infinite;
 }
