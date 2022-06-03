@@ -9,6 +9,22 @@
   padding: 0;
 }
 
+.Saudando {
+  animation: Spacing 1s ease infinite;
+}
+
+@keyframes Spacing {
+  0% {
+    letter-spacing: .125rem;
+  }
+  50% {
+    letter-spacing: .150rem;
+  }
+  100% {
+    letter-spacing: .125rem;
+  }
+}
+
 .Coração {
   animation: Zooming 1s ease infinite;
 }
