@@ -11,6 +11,8 @@ var Apelido = Aleatorizar([
     "amorzinho",
     "mô"])
 
+Apelido = "Lívia"
+
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = `😳 Bom dia, ${Apelido}! 😳`}
 else if (Hora >= 12 && Hora < 17){Saudar = `😳 Boa tarde, ${Apelido}! 😳`}
