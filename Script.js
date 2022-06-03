@@ -12,9 +12,9 @@ var Apelido = Aleatorizar([
     "mô"])
 
 var Hora = DataAtual.getHours()
-if (Hora >= 0 && Hora < 12){Saudar = `🥰 Bom dia, ${Apelido}! 🥰`}
-else if (Hora >= 12 && Hora < 17){Saudar = `🥰 Boa tarde, ${Apelido}! 🥰`}
-else if (Hora >= 17 && Hora < 24){Saudar = `🥰 Boa noite, ${Apelido}! 🥰`}
+if (Hora >= 0 && Hora < 12){Saudar = `😳 Bom dia, ${Apelido}! 😳`}
+else if (Hora >= 12 && Hora < 17){Saudar = `😳 Boa tarde, ${Apelido}! 😳`}
+else if (Hora >= 17 && Hora < 24){Saudar = `😳 Boa noite, ${Apelido}! 😳`}
 document.getElementById("Saudação").innerHTML = Saudar
 
 setInterval(function(){
