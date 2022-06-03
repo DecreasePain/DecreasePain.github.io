@@ -54,7 +54,7 @@ text-decoration: none;
     transform: scale(1, 1);
   }
   50% {
-    transform: scale(1.6, 1.6);
+    transform: scale(2, 1.5);
   }
   100% {
     transform: scale(1, 1);
