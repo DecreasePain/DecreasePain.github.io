@@ -9,9 +9,6 @@ a {text-decoration: none}
 html, body {height: 100%; margin: 0}
 body {align-items: center; background-color: #000000; display: flex; font-family: "Segoe UI", "Helvetica Neue"}
 
-.Background {background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zRVHyXTyx0BDz5_zDVY0jgFNC7%26pid%3DApi&f=1) no-repeat;
-             background-size: cover; height: 100%; width: 100%; position: fixed; z-index: -3;}
-
 .container {
   color: #FFFFFF;
   margin: 0 auto;
@@ -47,7 +44,16 @@ li span {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
-
+.Background {
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zRVHyXTyx0BDz5_zDVY0jgFNC7%26pid%3DApi&f=1) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
 @keyframes sf-fly-by-1 {
   from {
       transform: translateZ(-600px);
