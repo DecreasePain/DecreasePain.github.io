@@ -1,4 +1,4 @@
-var Data = new Date("Jul, 08, 2022, 00:00:00").getTime();
+var Data = new Date("Jun, 17, 2022, 17:00:00").getTime();
 var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
