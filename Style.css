@@ -1,87 +1,16 @@
-/* general styling */
-:root {
-  --smaller: .75;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.fds {
-text-decoration: none;
-}
-
-.Saudando {
-  animation: Spacing 1s ease infinite;
-}
-
-@keyframes Spacing {
-  0% {
-    letter-spacing: .125rem;
-  }
-  50% {
-    letter-spacing: .150rem;
-  }
-  100% {
-    letter-spacing: .125rem;
-  }
-}
-
-.Coração {
-  animation: Zooming 1s ease infinite;
-}
+a {text-decoration: none}
 
 @keyframes Zooming {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.6, 1.6);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
+  0% {transform: scale(1, 1)}
+  50% {transform: scale(1.7, 1.7)}
+  100% {transform: scale(1, 1)}}
+.Emoji {animation: Zooming 1s ease infinite}
 
-.Borboleta {
-  animation: Wings 1s ease infinite
-}
+html, body {height: 100%; margin: 0}
+body {align-items: center; background-color: #000000; display: flex; font-family: "Segoe UI", "Helvetica Neue"}
 
-@keyframes Wings {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(2, 1.5);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-
-
-body {
-  align-items: center;
-  background-color: #000000;
-  display: flex;
-  font-family: -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    Roboto, 
-    Oxygen-Sans, 
-    Ubuntu, 
-    Cantarell, 
-    "Helvetica Neue", 
-    sans-serif;
-}
+.Background {background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zRVHyXTyx0BDz5_zDVY0jgFNC7%26pid%3DApi&f=1) no-repeat;
+             background-size: cover; height: 100%; width: 100%; position: fixed; z-index: -3;}
 
 .container {
   color: #FFFFFF;
@@ -89,16 +18,9 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #FFFFFF;
-  letter-spacing: .125rem;
-}
-
-p {
-  color: #FFFFFF;
-  letter-spacing: .10rem;
-  font-family: "Helvetica Neue";
-}
+h1, p {color: #FFFFFF}
+h1 {letter-spacing: .125rem;}
+p {letter-spacing: .10rem; font-family: "Helvetica"}
 
 li {
   display: inline-block;
@@ -126,30 +48,6 @@ li span {
   }
 }
 
-.bg {
-  /*background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;*/
-  /*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSS9XeVM1UARBmp6dqhMC8B7aFoWMFY-cOA&usqp=CAU) no-repeat;*/
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRunpc_sKW2EsBFsu_0dxNHvwx6LDQmG15hxA&usqp=CAU) no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -3;
-  opacity: 0.5
-}
-.bg:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #000;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  opacity: 0.6
-}
 @keyframes sf-fly-by-1 {
   from {
       transform: translateZ(-600px);
@@ -220,6 +118,7 @@ li span {
 }
 
 .Gradient{
+  font-size: 100;
   font-family:'Helvetica';
   transform:translate(-50%, -50%);
   color:rgba(255, 255, 255, .1);

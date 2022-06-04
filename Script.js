@@ -17,10 +17,10 @@ else if (Hora >= 12 && Hora < 17){Saudar = `Boa tarde, ${Apelido}!`}
 else if (Hora >= 17 && Hora < 24){Saudar = `Boa noite, ${Apelido}!`}
 document.getElementById("Saudação").innerHTML = Saudar
 
-document.getElementById("Dias").innerHTML = "⭐"
-document.getElementById("Horas").innerHTML = "⭐"
-document.getElementById("Minutos").innerHTML = "⭐"
-document.getElementById("Segundos").innerHTML = "⭐"
+document.getElementById("Dias").innerHTML = "00"
+document.getElementById("Horas").innerHTML = "00"
+document.getElementById("Minutos").innerHTML = "00"
+document.getElementById("Segundos").innerHTML = "00"
 
 setInterval(function(){
     var Agora=new Date().getTime();
