@@ -137,7 +137,7 @@ li span {
   top: 0;
   left: 0;
   z-index: -3;
-  opacity: 100;
+  opacity: 0.5
 }
 .bg:before {
   content: "";
@@ -148,7 +148,7 @@ li span {
   z-index: -1;
   top: 0;
   left: 0;
-  opacity: 100;
+  opacity: 0.6
 }
 @keyframes sf-fly-by-1 {
   from {
