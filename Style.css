@@ -6,8 +6,6 @@ a {text-decoration: none}
   100% {transform: scale(1, 1)}}
 .Emoji {animation: Zooming 1s ease infinite}
 
-html, body {height: 100%; margin: 0}
-
 body {
   align-items: center;
   background-color: #000000;
