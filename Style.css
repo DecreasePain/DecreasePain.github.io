@@ -128,7 +128,8 @@ li span {
 
 .bg {
   /*background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;*/
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSS9XeVM1UARBmp6dqhMC8B7aFoWMFY-cOA&usqp=CAU) no-repeat;
+  /*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSS9XeVM1UARBmp6dqhMC8B7aFoWMFY-cOA&usqp=CAU) no-repeat;*/
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-B4OYs9rmIMYQsAnVFRdIipvNxsOfGiP17A&usqp=CAU) no repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -136,7 +137,7 @@ li span {
   top: 0;
   left: 0;
   z-index: -3;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .bg:before {
   content: "";
@@ -147,7 +148,7 @@ li span {
   z-index: -1;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 @keyframes sf-fly-by-1 {
   from {
