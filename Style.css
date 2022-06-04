@@ -1,10 +1,72 @@
-a {text-decoration: none}
+/* general styling */
+:root {
+  --smaller: .75;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fds {
+text-decoration: none;
+}
+
+.Saudando {
+  animation: Spacing 1s ease infinite;
+}
+
+@keyframes Spacing {
+  0% {
+    letter-spacing: .125rem;
+  }
+  50% {
+    letter-spacing: .150rem;
+  }
+  100% {
+    letter-spacing: .125rem;
+  }
+}
+
+.Coração {
+  animation: Zooming 1s ease infinite;
+}
 
 @keyframes Zooming {
-  0% {transform: scale(1, 1)}
-  50% {transform: scale(1.7, 1.7)}
-  100% {transform: scale(1, 1)}}
-.Emoji {animation: Zooming 1s ease infinite}
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.6, 1.6);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.Borboleta {
+  animation: Wings 1s ease infinite
+}
+
+@keyframes Wings {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(2, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
 
 body {
   align-items: center;
