@@ -15,8 +15,8 @@ var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
 else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde'}
 else if (Hora >= 17 && Hora < 24){Saudar = 'Boa noite'}
-document.querySelector("Saudar".innerHTML = Saudar
-document.querySelector("Apelido").innerHTML = Apelido
+document.getElementById("Saudar".innerHTML = Saudar
+document.getElementById("Apelido").innerHTML = Apelido
 
 document.getElementById("Dias").innerHTML = "00"
 document.getElementById("Horas").innerHTML = "00"
