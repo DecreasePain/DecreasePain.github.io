@@ -9,6 +9,8 @@
   padding: 0;
 }
 
+.Purple {color: #8338EC;}
+
 .fds {
 text-decoration: none;
 }
@@ -30,7 +32,6 @@ text-decoration: none;
 }
 
 .Borboleta {
-  text-color: #9CFFFA;
   font-family: "Helvetica Neue";
   animation: Zooming 1s ease infinite;
 }
