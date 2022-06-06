@@ -29,7 +29,7 @@ text-decoration: none;
   }
 }
 
-.Coração {
+.Borboleta {
   text-color: #9CFFFA;
   font-family: "Helvetica Neue";
   animation: Zooming 1s ease infinite;
@@ -49,18 +49,6 @@ text-decoration: none;
 
 .Borboleta {
   animation: Wings 1s ease infinite
-}
-
-@keyframes Wings {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 html, body {
