@@ -47,10 +47,6 @@ text-decoration: none;
   }
 }
 
-.Borboleta {
-  animation: Wings 1s ease infinite
-}
-
 html, body {
   height: 100%;
   margin: 0;
