@@ -7,7 +7,6 @@ var Apelido = Aleatorizar([
     "nenequinha",
     "coisa linda",
     "vida",
-    "vidinha",
     "amorzinho",
     "mô"])
 
