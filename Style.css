@@ -14,7 +14,7 @@
   text-shadow: 2px 2px 2px 2px black;
 }
 
-.Red {color: red;}
+.Red {color: #FAD4D4;}
 
 .Fade-In-1 {
   animation: FadeIn 3s ease;
