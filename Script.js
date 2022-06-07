@@ -3,13 +3,6 @@ var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
-var Apelido = Aleatorizar([
-    "nenequinha",
-    "coisa linda",
-    "vida",
-    "amorzinho",
-    "mô"])
-
 document.getElementById("Apelido").innerHTML = Apelido
 
 setInterval(function(){
