@@ -20,27 +20,22 @@
 
 .Fade-In-1 {
   animation: FadeIn 3s ease;
-  animation-delay: 3;
 }
 
 .Fade-In-2 {
   animation: FadeIn 6s ease;
-  animation-delay: 6;
 }
 
 .Fade-In-3 {
   animation: FadeIn 9s ease;
-  animation-delay: 9;
 }
 
 .Fade-In-4 {
   animation: FadeIn 12s ease;
-  animation-delay: 12;
 }
 
 .Fade-In-5 {
   animation: FadeIn 10s ease;
-  animation-delay: 15;
 }
 
 
