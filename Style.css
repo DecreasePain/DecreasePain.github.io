@@ -44,6 +44,8 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   height: 100%;
   color: #FFFFFF;
   margin: 0 auto;
