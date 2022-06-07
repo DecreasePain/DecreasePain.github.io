@@ -3,6 +3,11 @@ var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
+Som = document.getElementById("Plim");
+function TocarSom(){
+    Som.play();
+}
+
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
 else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde'}
