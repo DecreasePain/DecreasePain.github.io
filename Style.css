@@ -120,7 +120,7 @@ li span {
 }
 
 .bg {
-  background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;
+  background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FNight-Sky-Backgrounds-Free-Downlaod.jpg&f=1&nofb=1) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -128,18 +128,18 @@ li span {
   top: 0;
   left: 0;
   z-index: -3;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .bg:before {
   content: "";
   width: 100%;
   height: 100%;
-  background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;
+  background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FNight-Sky-Backgrounds-Free-Downlaod.jpg&f=1&nofb=1) no-repeat;
   position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 @keyframes sf-fly-by-1 {
   from {
