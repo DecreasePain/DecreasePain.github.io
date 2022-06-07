@@ -3,7 +3,7 @@ var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
-document.getElementById("Apelido").innerHTML = Apelido
+document.getElementById("Apelido").innerHTML = "Lívia"
 
 setInterval(function(){
     var Apelido = Aleatorizar([
@@ -12,7 +12,7 @@ setInterval(function(){
     "mô",
     "furacãozinho",
     "surtada",
-    "carai"])
+    "carai",])
     document.getElementById("Apelido").innerHTML = Apelido
 }, 2000);
 
