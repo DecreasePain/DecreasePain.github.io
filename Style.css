@@ -30,7 +30,7 @@
 }
 
 .Fade-In-5 {
-  animation: FadeIn 15s ease;
+  animation: FadeIn 10s ease;
   animation-delay: 15;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .Zooming {
-  letter-spacing: .125rem;
+  letter-spacing: .250rem;
   font-family: "Helvetica Neue";
   animation: Zooming 1s ease infinite;
 }
