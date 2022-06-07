@@ -9,29 +9,7 @@
   padding: 0;
 }
 
-.cor-apelido {color: #FEE440;}
-
-.fds {
-text-decoration: none;
-}
-
-.Saudando {
-  animation: Spacing 1s ease infinite;
-}
-
-@keyframes Spacing {
-  0% {
-    letter-spacing: .125rem;
-  }
-  50% {
-    letter-spacing: .150rem;
-  }
-  100% {
-    letter-spacing: .125rem;
-  }
-}
-
-.Borboleta {
+.Zooming {
   font-family: "Helvetica Neue";
   animation: Zooming 1s ease infinite;
 }
@@ -46,11 +24,6 @@ text-decoration: none;
   100% {
     transform: scale(1);
   }
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
 }
 
 
@@ -81,12 +54,7 @@ h1 {
   letter-spacing: .125rem;
 }
 
-p {
-  color: #FFFFFF;
-  text-shadow: 2px 2px 2px 2px black;
-  letter-spacing: .10rem;
-  font-family: "Franklin Gothic Medium";
-}
+.Texto {color: white; text-shadow: 2px 2px 2px 2px black; letter-spacing: .10rem; font-family: "Franklin Gothic Medium";}
 
 li {
   display: inline-block;
