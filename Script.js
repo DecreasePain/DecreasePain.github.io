@@ -14,7 +14,7 @@ document.getElementById("Apelido").innerHTML = Apelido
 
 setInterval(function(){
     document.getElementById("Apelido").innerHTML = Apelido
-}, 2000)
+}, 2000);
 
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
