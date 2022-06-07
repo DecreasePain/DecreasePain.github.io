@@ -3,18 +3,13 @@ var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
-document.getElementById("Apelido").innerHTML = "Lívia"
-
-setInterval(function(){
-    var Apelido = Aleatorizar([
-    "nenequinha",
-    "coisa linda",
-    "mô",
-    "furacãozinho",
-    "surtada",
-    "carai",])
-    document.getElementById("Apelido").innerHTML = Apelido
-}, 2000);
+var Apelido = Aleatorizar([
+"nenequinha",
+"coisa linda",
+"mô",
+"furacãozinho",
+"carai",])
+document.getElementById("Apelido").innerHTML = Apelido
 
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
