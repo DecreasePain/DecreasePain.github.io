@@ -9,6 +9,31 @@
   padding: 0;
 }
 
+.Fade-In-1 {
+  animation: FadeIn 3s ease;
+  animation-delay: 3;
+}
+
+.Fade-In-2 {
+  animation: FadeIn 6s ease;
+  animation-delay: 6;
+}
+
+.Fade-In-3 {
+  animation: FadeIn 9s ease;
+  animation-delay: 9;
+}
+
+.Fade-In-4 {
+  animation: FadeIn 12s ease;
+  animation-delay: 12;
+}
+
+@keyframes FadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 .Zooming {
   font-family: "Helvetica Neue";
   animation: Zooming 1s ease infinite;
@@ -179,6 +204,8 @@ li span {
 }
 
 .Gradient{
+  animation: FadeIn 12s ease;
+  animation-delay: 15;
   font-family:'Helvetica';
   transform:translate(-50%, -50%);
   color:rgba(255, 255, 255, .1);
