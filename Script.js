@@ -6,7 +6,7 @@ function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length)
 Som = document.getElementById("Plim");
 function TocarSom(){
     Som.play();
-    document.getElementById("Frase").innerHTML = '<p class="Zooming">🔊 🔊 🔊 🔊 🔊</p><br>'
+    document.getElementById("Frase").innerHTML = '<p class="Zooming">🔊 🔊 🔊 🔊 🔊</p>'
 }
 
 var Hora = DataAtual.getHours()
