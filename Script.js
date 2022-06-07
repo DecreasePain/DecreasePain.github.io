@@ -13,6 +13,12 @@ var Apelido = Aleatorizar([
 document.getElementById("Apelido").innerHTML = Apelido
 
 setInterval(function(){
+    var Apelido = Aleatorizar([
+    "nenequinha",
+    "coisa linda",
+    "vida",
+    "amorzinho",
+    "mô"])
     document.getElementById("Apelido").innerHTML = Apelido
 }, 2000);
 
