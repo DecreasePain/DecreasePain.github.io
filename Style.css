@@ -9,6 +9,11 @@
   padding: 0;
 }
 
+.DHMS {
+  color: #FF4949;
+  text-shadow: 2px 2px 2px 2px black;
+}
+
 .Fade-In-1 {
   animation: FadeIn 3s ease;
   animation-delay: 3;
