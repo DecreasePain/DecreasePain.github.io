@@ -7,7 +7,7 @@ Som = document.getElementById("Plim");
 function TocarSom(){
     Som.play();
     document.getElementById("Frase").innerHTML = '<p class="Zooming"><span class="Gradient">te amo!</span></p>'
-    document.getElementById("bg").style.background = 
+    document.getElementById("bg").style.background = "url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;"
 }
 
 var Hora = DataAtual.getHours()
