@@ -23,19 +23,19 @@
 }
 
 .Fade-In-2 {
-  animation: FadeIn 3s ease;
+  animation: FadeIn 1.5s ease;
 }
 
 .Fade-In-3 {
-  animation: FadeIn 5s ease;
+  animation: FadeIn 2s ease;
 }
 
 .Fade-In-4 {
-  animation: FadeIn 7s ease;
+  animation: FadeIn 2.5s ease;
 }
 
 .Fade-In-5 {
-  animation: FadeIn 9s ease;
+  animation: FadeIn 3s ease;
 }
 
 
