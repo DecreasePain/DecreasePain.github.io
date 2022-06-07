@@ -19,29 +19,29 @@
 .Red {color: #FAD4D4;}
 
 .Fade-In-1 {
-  animation: FadeIn 3s ease;
+  animation: FadeIn 1s ease;
 }
 
 .Fade-In-2 {
-  animation: FadeIn 6s ease;
+  animation: FadeIn 3s ease;
 }
 
 .Fade-In-3 {
-  animation: FadeIn 9s ease;
+  animation: FadeIn 5s ease;
 }
 
 .Fade-In-4 {
-  animation: FadeIn 12s ease;
+  animation: FadeIn 7s ease;
 }
 
 .Fade-In-5 {
-  animation: FadeIn 10s ease;
+  animation: FadeIn 9s ease;
 }
 
 
 @keyframes FadeIn {
   0% {opacity: 0;}
-  50% {opacity: 0.2;}
+  50% {opacity: 0.1;}
   100% {opacity: 1;}
 }
 
