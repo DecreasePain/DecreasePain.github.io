@@ -58,7 +58,7 @@ html, body {
 body {
   align-items: center;
   display: flex;
-  background: url(https://wallpaperaccess.com/full/929228.jpg) no-repeat;
+  background-color: #000000;
   font-family: -apple-system, 
     BlinkMacSystemFont, 
     "Segoe UI", 
@@ -124,7 +124,7 @@ li span {
   top: 0;
   left: 0;
   z-index: -3;
-  opacity: 90;
+  opacity: 0.4;
 }
 .bg:before {
   content: "";
@@ -135,7 +135,7 @@ li span {
   z-index: -1;
   top: 0;
   left: 0;
-  opacity: 90;
+  opacity: 0.4;
 }
 @keyframes sf-fly-by-1 {
   from {
