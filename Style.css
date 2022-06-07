@@ -136,6 +136,18 @@ li span {
   opacity: 0.5;
 }
 
+.bgdps {
+  background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  opacity: 0.5;
+}
+
 @keyframes sf-fly-by-1 {
   from {
       transform: translateZ(-600px);
