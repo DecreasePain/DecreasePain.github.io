@@ -3,12 +3,12 @@ var DataAtual = new Date()
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
-var Apelido = Aleatorizar([
+setInterval(function(){var Apelido = Aleatorizar([
     "nenequinha",
     "coisa linda",
     "vida",
     "amorzinho",
-    "mô"])
+    "mô"])}, 3000);
 
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
