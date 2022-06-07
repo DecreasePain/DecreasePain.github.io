@@ -8,7 +8,8 @@ setInterval(function(){var Apelido = Aleatorizar([
     "coisa linda",
     "vida",
     "amorzinho",
-    "mô"])}, 3000);
+    "mô"])
+    document.getElementById("Apelido").innerHTML = Apelido}, 2000);
 
 var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
