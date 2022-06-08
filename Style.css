@@ -125,27 +125,16 @@ li span {
 }
 
 .bg {
-  background: url(https://wallpapercave.com/uwp/uwp1899371.jpeg) no-repeat;
-  background-size: cover;
+  background: url(https://wallpapercave.com/uwp/uwp1899371.jpeg);
   height: 100%;
   width: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: -3;
   opacity: 0.5;
-}
-
-.bgdps {
-  background: url(https://wallpapercave.com/uwp/uwp1899371.jpeg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -3;
-  opacity: 0.5;
 }
 
 @keyframes sf-fly-by-1 {
