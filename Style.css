@@ -1,17 +1,7 @@
-/* general styling */
-:root {
-  --smaller: .75;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.TimerColor {
-  color: #00FFAB;
-  text-shadow: 2px 2px 2px 2px black;
 }
 
 .Blue {color: #40DFEF;}
