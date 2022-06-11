@@ -37,7 +37,7 @@ function TocarSom(){
     document.querySelector(".bg").style.background = "url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;"
 }
 
-var Hora = DataAtual.getHours()
+/*var Hora = DataAtual.getHours()
 if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
 else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde'}
 else if (Hora >= 17 && Hora < 24){Saudar = 'Boa noite'}
@@ -65,4 +65,4 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Horas
     document.getElementById("Minutos").innerHTML = Minutos
     document.getElementById("Segundos").innerHTML = Segundos
-}, 1000);
+}, 1000);*/
