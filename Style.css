@@ -50,7 +50,7 @@
 .Zooming {
   letter-spacing: .250rem;
   font-family: "Helvetica Neue";
-  animation: Zooming 1s ease infinite;
+  /*animation: Zooming 1s ease infinite;*/
 }
 
 @keyframes Zooming {
