@@ -1,7 +1,34 @@
 var Data = new Date("Jun, 17, 2022, 20:00:00").getTime();
 var DataAtual = new Date()
 
+const myArray = []
+for (let i = 0; i < 61; i++) {
+  myArray.push(i)
+}
+
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
+
+document.getElementById("Dias").innerHTML = "00"
+document.getElementById("Horas").innerHTML = "00"
+document.getElementById("Minutos").innerHTML = "00"
+document.getElementById("Segundos").innerHTML = "00"
+
+setInterval(function(){
+    var Aum = Aleatorizar(myArray);
+    var Adois = Aleatorizar(myArray);
+    var Atres = Aleatorizar(myArray);
+    var Aquatro = Aleatorizar(myArray);
+
+    if (Aum < 10){Aum = `0${Aum}`}
+    if (Adois < 10){Adois = `0${Adois}`}
+    if (Atres < 10){Atres = `0${Atres}`}
+    if (Aquatro < 10){Aquatro = `0${Aquatro}`}
+
+    document.getElementById("Dias").innerHTML = Aum
+    document.getElementById("Horas").innerHTML = Adois
+    document.getElementById("Minutos").innerHTML = Atres
+    document.getElementById("Segundos").innerHTML = Aquatro
+}, 100)
 
 Som = document.getElementById("Plim");
 function TocarSom(){
