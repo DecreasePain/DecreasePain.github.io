@@ -29,6 +29,11 @@ setInterval(function(){
     var Minutos=Math.floor((Distância%(1000*60*60))/(1000*60))
     var Segundos=Math.floor((Distância%(1000*60)/1000))
 
+    If (Dias < 10){Dias = `0${Dias}`}
+    If (Horas < 10){Horas = `0${Horas}`}
+    If (Minutos < 10){Minutos = `0${Minutos}`}
+    If (Segundos < 10){Segundos = `0${Segundos}`}
+
     document.getElementById("Dias").innerHTML = Dias
     document.getElementById("Horas").innerHTML = Horas
     document.getElementById("Minutos").innerHTML = Minutos
