@@ -28,7 +28,7 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Adois
     document.getElementById("Minutos").innerHTML = Atres
     document.getElementById("Segundos").innerHTML = Aquatro
-}, 500)
+}, 250)
 
 Som = document.getElementById("Plim");
 function TocarSom(){
