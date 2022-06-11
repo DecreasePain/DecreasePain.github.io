@@ -28,12 +28,12 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Adois
     document.getElementById("Minutos").innerHTML = Atres
     document.getElementById("Segundos").innerHTML = Aquatro
-}, 100)
+}, 500)
 
 Som = document.getElementById("Plim");
 function TocarSom(){
     Som.play();
-    document.getElementById("Frase").innerHTML = '<p class="Zooming">❤️ <span class="Gradient">te amo, infinitamente!</span> ❤️</p>'
+    document.getElementById("Frase").innerHTML = '<p class="Zooming"><span class="Gradiente">It's an exciting time<br>in the world right now.</span></p>'
     document.querySelector(".bg").style.background = "url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;"
 }
 
