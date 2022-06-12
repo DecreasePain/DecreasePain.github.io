@@ -13,7 +13,7 @@ document.getElementById("Horas").innerHTML = "00"
 document.getElementById("Minutos").innerHTML = "00"
 document.getElementById("Segundos").innerHTML = "00"
 
-setInterval(function(){
+/*setInterval(function(){
     var Aum = Aleatorizar(myArray);
     var Adois = Aleatorizar(myArray);
     var Atres = Aleatorizar(myArray);
@@ -28,12 +28,12 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Adois
     document.getElementById("Minutos").innerHTML = Atres
     document.getElementById("Segundos").innerHTML = Aquatro
-}, 125)
+}, 125)*/
 
 Som = document.getElementById("Plim");
 function TocarSom(){
     Som.play();
-    document.getElementById("Frase").innerHTML = '<p class="Zooming"><span class="Gradiente">Exciting<br>time...</span></p>'
+    document.getElementById("Frase").innerHTML = '<p class="Zooming">❤️ <span class="Gradient">te amo, infinitamente!</span> ❤️</p>'
     document.querySelector(".bg").style.background = "url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;"
 }
 
@@ -43,7 +43,7 @@ else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde'}
 else if (Hora >= 17 && Hora < 24){Saudar = 'Boa noite'}
 document.getElementById("Saudar").innerHTML = Saudar
 
-/*document.getElementById("Dias").innerHTML = "00"
+document.getElementById("Dias").innerHTML = "00"
 document.getElementById("Horas").innerHTML = "00"
 document.getElementById("Minutos").innerHTML = "00"
 document.getElementById("Segundos").innerHTML = "00"
@@ -65,4 +65,4 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Horas
     document.getElementById("Minutos").innerHTML = Minutos
     document.getElementById("Segundos").innerHTML = Segundos
-}, 1000);*/
+}, 1000);
