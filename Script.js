@@ -1,4 +1,4 @@
-var Data = new Date("Jun, 16, 2022, 22:33:00").getTime();
+var Data = new Date("Jun, 16, 2022, 22:39:00").getTime();
 var DataAtual = new Date()
 
 const myArray = []
@@ -38,9 +38,9 @@ function TocarSom(){
 }
 
 var Hora = DataAtual.getHours()
-if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia'}
-else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde'}
-else if (Hora >= 17 && Hora < 24){Saudar = 'Boa noite'}
+if (Hora >= 0 && Hora < 12){Saudar = 'Bom dia! 🥰'}
+else if (Hora >= 12 && Hora < 17){Saudar = 'Boa tarde! 🥰'}
+else if (Hora >= 17 && Hora < 24){Saudar = 'Boa noite! 🥰'}
 document.getElementById("Saudar").innerHTML = Saudar
 
 document.getElementById("Dias").innerHTML = "00"
@@ -65,6 +65,9 @@ setInterval(function(){
     if (Horas < 0){Horas = "00"}
     if (Minutos < 0){Minutos = "00"}
     if (Segundos < 0){Segundos = "00"}
+
+    if (Dias < 0 && Horas < 0 && Minutos < 0 && Segundos < 0){Saudar = "Siamo insieme ora."}
+    document.getElementById("Saudar").innerHTML = Saudar
 
     document.getElementById("Dias").innerHTML = Dias
     document.getElementById("Horas").innerHTML = Horas
