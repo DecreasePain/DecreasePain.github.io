@@ -66,7 +66,7 @@ setInterval(function(){
     if (Minutos < 0){Minutos = "00"}
     if (Segundos < 0){Segundos = "00"}
 
-    if (Dias < 0 && Horas < 0 && Minutos < 0 && Segundos < 0){Saudar = "Siamo insieme ora. ❤️"}
+    if (Segundos < 0){Saudar = "Siamo insieme ora. ❤️"}
     document.getElementById("Saudar").innerHTML = Saudar
 
     document.getElementById("Dias").innerHTML = Dias
