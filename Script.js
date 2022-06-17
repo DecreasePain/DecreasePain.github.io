@@ -33,7 +33,7 @@ document.getElementById("Segundos").innerHTML = "00"
 Som = document.getElementById("Plim");
 function TocarSom(){
     Som.play();
-    document.getElementById("Frase").innerHTML = '<p class="Zooming">❤️ <span class="Gradient">te amo, infinitamente!</span> ❤️</p>'
+    document.getElementById("Frase").innerHTML = '<p class="Zooming"><span class="Gradient">te amo, infinitamente!</span></p>'
     document.querySelector(".bg").style.background = "url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FUQdBeGb.jpg&f=1&nofb=1) no-repeat;"
 }
 
@@ -66,7 +66,7 @@ setInterval(function(){
     if (Minutos < 0){Minutos = "00"}
     if (Segundos < 0){Segundos = "00"}
 
-    if (Dias < 0 && Horas < 0 && Minutos < 0 && Segundos < 0){Saudar = "Siamo insieme ora."}
+    if (Dias < 0 && Horas < 0 && Minutos < 0 && Segundos < 0){Saudar = "Siamo insieme ora. ❤️"}
     document.getElementById("Saudar").innerHTML = Saudar
 
     document.getElementById("Dias").innerHTML = Dias
