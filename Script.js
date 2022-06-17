@@ -1,4 +1,4 @@
-var Data = new Date("Jun, 16, 2022, 22:28:00").getTime();
+var Data = new Date("Jun, 16, 2022, 22:32:00").getTime();
 var DataAtual = new Date()
 
 const myArray = []
@@ -60,6 +60,11 @@ setInterval(function(){
     if (Horas < 10 && Horas >-1){Horas = `0${Horas}`}
     if (Minutos < 10 && Minutos >-1){Minutos = `0${Minutos}`}
     if (Segundos < 10 && Segundos >-1){Segundos = `0${Segundos}`}
+
+    if (Dias < 0){Dias = "00"}
+    if (Horas < 0){Horas = "00"}
+    if (Minutos < 0){Minutos = "00"}
+    if (Segundos < 0){Minutos = "00"}
 
     document.getElementById("Dias").innerHTML = Dias
     document.getElementById("Horas").innerHTML = Horas
