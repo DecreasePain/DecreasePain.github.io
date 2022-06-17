@@ -56,10 +56,10 @@ setInterval(function(){
     var Minutos=Math.floor((Distância%(1000*60*60))/(1000*60))
     var Segundos=Math.floor((Distância%(1000*60)/1000))
 
-    if (Dias < 10){Dias = `0${Dias}`}
-    if (Horas < 10){Horas = `0${Horas}`}
-    if (Minutos < 10){Minutos = `0${Minutos}`}
-    if (Segundos < 10){Segundos = `0${Segundos}`}
+    if (Dias < 10 && Dias >-1){Dias = `0${Dias}`}
+    if (Horas < 10 && Horas >-1){Horas = `0${Horas}`}
+    if (Minutos < 10 && Minutos >-1){Minutos = `0${Minutos}`}
+    if (Segundos < 10 && Segundos >-1){Segundos = `0${Segundos}`}
 
     document.getElementById("Dias").innerHTML = Dias
     document.getElementById("Horas").innerHTML = Horas
