@@ -19,10 +19,10 @@ document.getElementById("Segundos").innerHTML = "00"
     var Atres = Aleatorizar(myArray);
     var Aquatro = Aleatorizar(myArray);
 
-    if (Aum < 10){Aum = `0${Aum}`}
-    if (Adois < 10){Adois = `0${Adois}`}
-    if (Atres < 10){Atres = `0${Atres}`}
-    if (Aquatro < 10){Aquatro = `0${Aquatro}`}
+    if (Aum < 10 && Aum >-1){Aum = `0${Aum}`}
+    if (Adois < 10 && Adois >-1){Adois = `0${Adois}`}
+    if (Atres < 10 && Atres >-1){Atres = `0${Atres}`}
+    if (Aquatro < 10 && Aquatro >-1){Aquatro = `0${Aquatro}`}
 
     document.getElementById("Dias").innerHTML = Aum
     document.getElementById("Horas").innerHTML = Adois
