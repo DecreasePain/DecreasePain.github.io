@@ -1,4 +1,4 @@
-var Data = new Date("Jun, 17, 2022, 11:00:00").getTime();
+var Data = new Date("Jul, 08, 2022, 10:00:00").getTime();
 var DataAtual = new Date()
 
 const myArray = []
