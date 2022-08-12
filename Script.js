@@ -8,12 +8,12 @@ for (let i = 0; i < 61; i++) {
 
 function Aleatorizar(Lista){return Lista[Math.floor((Math.random()*Lista.length))]}
 
-document.getElementById("Dias").innerHTML = "00"
+/*document.getElementById("Dias").innerHTML = "00"
 document.getElementById("Horas").innerHTML = "00"
 document.getElementById("Minutos").innerHTML = "00"
-document.getElementById("Segundos").innerHTML = "00"
+document.getElementById("Segundos").innerHTML = "00"*/
 
-/*setInterval(function(){
+setInterval(function(){
     var Aum = Aleatorizar(myArray);
     var Adois = Aleatorizar(myArray);
     var Atres = Aleatorizar(myArray);
@@ -28,7 +28,7 @@ document.getElementById("Segundos").innerHTML = "00"
     document.getElementById("Horas").innerHTML = Adois
     document.getElementById("Minutos").innerHTML = Atres
     document.getElementById("Segundos").innerHTML = Aquatro
-}, 125)*/
+}, 125)
 
 Som = document.getElementById("Plim");
 function TocarSom(){
