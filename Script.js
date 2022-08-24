@@ -1,4 +1,4 @@
-var Data = new Date("Jul, 28, 2022, 07:00:00").getTime();
+var Data = new Date("Jul, 28, 2022, 11:30:00").getTime();
 var DataAtual = new Date()
 
 const myArray = []
@@ -13,7 +13,7 @@ document.getElementById("Horas").innerHTML = "00"
 document.getElementById("Minutos").innerHTML = "00"
 document.getElementById("Segundos").innerHTML = "00"*/
 
-setInterval(function(){
+/*setInterval(function(){
     var Aum = Aleatorizar(myArray);
     var Adois = Aleatorizar(myArray);
     var Atres = Aleatorizar(myArray);
@@ -28,7 +28,7 @@ setInterval(function(){
     document.getElementById("Horas").innerHTML = Adois
     document.getElementById("Minutos").innerHTML = Atres
     document.getElementById("Segundos").innerHTML = Aquatro
-}, 125)
+}, 125)*/
 
 Som = document.getElementById("Plim");
 function TocarSom(){
